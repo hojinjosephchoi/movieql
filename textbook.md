@@ -164,4 +164,6 @@ query {
 }
 ~~~
 
+
 # 6 Extending the Schema part Two
+- Query, Mutation, Subscription

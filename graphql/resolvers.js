@@ -1,12 +1,9 @@
-const hojin = {
-  name: 'Hojin',
-  age: 32,
-  gender: 'male'
-};
+import { people, getById } from './db';
 
 const resolvers = {
   Query: {
-    person: () => hojin
+    people: () => people,
+    // person: () => getById()
   }
 };
 
