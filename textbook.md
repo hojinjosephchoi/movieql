@@ -1,4 +1,4 @@
-#1 GraphQL 서버만들기
+# 1 GraphQL 서버만들기
 - Prisma QL, apollo 팀 등이 참여
 - [나의 첫번째 GraphQL 서버 만들기](https://www.youtube.com/watch?v=3PZGW5Iwtv4)
 
@@ -10,7 +10,7 @@ $ yarn init
 $ yarn add graphql-yoga
 ~~~
 
-#2 Problems solved by GraphQL
+# 2 Problems solved by GraphQL
 ## Over-fetching / Under-fetching
 - Over-fetching : 사용자 정보를 받아오는 REST API의 경우 모든 사용자의 정보를 보여준다, 사용도 안할 정보를 모두 받아야 하는 단점이 발생한다.
 ~~~
@@ -67,7 +67,7 @@ query {
 ~~~
 
 
-#3 Creating a GraphQL Server with GraphQL Yoga
+# 3 Creating a GraphQL Server with GraphQL Yoga
 - nodemon 설치
 ~~~
 $ yarn global add nodemon
@@ -94,7 +94,7 @@ $ yarn add babel-cli babel-preset-env babel-preset-stage-3 --dev
 ~~~
 
 
-#4 Creating the first Query and Resolver
+# 4 Creating the first Query and Resolver
 ## Schema
 - 사용자에게 보내거나 사용자로부터 받을 data에 대한 설명
 
@@ -129,7 +129,7 @@ query {
 
 
 
-#5 Extending the Schema
+# 5 Extending the Schema
 - Object형태의 데이터 타입 query 정의하듯 별도로 정의할 수 있다.
 ~~~
 type Hojin{
@@ -163,3 +163,5 @@ query {
   }
 }
 ~~~
+
+# 6 Extending the Schema part Two
