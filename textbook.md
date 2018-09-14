@@ -174,3 +174,18 @@ query {
 
 - Resolvers는 Views와 유사
 - Schema는 URLs와 유사
+
+
+# 8 Defining Mutations
+## Mutation
+- Database 상태가 변할 때 사용 (CUD)
+- change of state
+- Resolver내 Mutation에 내용 추가
+- 요청 전문은 Query와 달리 mutation키워드를 사용한다.
+~~~
+mutation {
+  addMovie(name: "한글", score: 9) {
+  	name
+	} 
+}
+~~~
