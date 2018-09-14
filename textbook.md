@@ -86,7 +86,21 @@ $ yarn add babel-node --dev
 $ yarn global add babel-cli
 $ yarn add babel-cli babel-preset-env babel-preset-stage-3 --dev
 ~~~
-## Resolvers
 
+#4 Creating the first Query and Resolver
 ## Schema
 - 사용자에게 보내거나 사용자로부터 받을 data에 대한 설명
+
+## Query 
+- graphql/schema.graphql 생성
+- schema : 받거나 줄 정보에 대한 서술
+- 사용자가 뭘 할 지에 대해서 정의
+- Query : Database로부터 정보를 얻음. 정보를 얻을 때만 쓰임
+- Mutation : 정보를 변형할 때 (서버/Database/Memory...) 쓰임
+
+
+## Resolvers
+- Query를 resolve하는 것
+- reolvers를 통해 database/메모리/다른 api 등을 연결한다.
+- [localhost:4000](localhost:4000): graphql-yoga에서 제공해주는 playground 를 통해 api를 확인할 수 있다.
+
