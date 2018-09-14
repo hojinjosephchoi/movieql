@@ -176,7 +176,8 @@ query {
 - Schema는 URLs와 유사
 
 
-# 8 Defining Mutations
+# 8 Defining Mutations & 9 Creating first Mutation
+
 ## Mutation
 - Database 상태가 변할 때 사용 (CUD)
 - change of state
