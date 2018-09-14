@@ -66,3 +66,27 @@ query {
 }
 ~~~
 
+
+#3 Creating a GraphQL Server with GraphQL Yoga
+- nodemon 설치
+~~~
+$ yarn global add nodemon
+~~~
+
+- index.js 생성
+- package.json 내 script 추가
+- nodemon 시작
+~~~
+$ yarn start
+~~~
+
+- babel-node 설치
+~~~
+$ yarn add babel-node --dev
+$ yarn global add babel-cli
+$ yarn add babel-cli babel-preset-env babel-preset-stage-3 --dev
+~~~
+## Resolvers
+
+## Schema
+- 사용자에게 보내거나 사용자로부터 받을 data에 대한 설명
