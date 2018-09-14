@@ -1,0 +1,12 @@
+{
+  "name": "movieql",
+  "version": "1.0.0",
+  "description": "Moview API with GraphQL",
+  "main": "index.js",
+  "repository": "https://github.com/hojinjosephchoi/movieql.git",
+  "author": "Hojin Joseph CHOI",
+  "license": "MIT",
+  "dependencies": {
+    "graphql-yoga": "^1.16.2"
+  }
+}
