@@ -198,3 +198,11 @@ mutation {
   deleteMovie(id: 3)
 }
 ~~~
+
+
+# 11, 12 Wrapping a REST API with GraphQL
+- [open API](https://yts.am/api/v2/list_movies.json)를 감싸는 GraphQL 작성 예
+- node-fetch 설치
+~~~
+$ yarn add node-fetch
+~~~
