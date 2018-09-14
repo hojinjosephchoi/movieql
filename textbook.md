@@ -109,5 +109,21 @@ $ yarn add babel-cli babel-preset-env babel-preset-stage-3 --dev
 ## Resolvers
 - Query를 resolve하는 것
 - reolvers를 통해 database/메모리/다른 api 등을 연결한다.
+
+## GraphQL-yoga Playground
 - [localhost:4000](localhost:4000): graphql-yoga에서 제공해주는 playground 를 통해 api를 확인할 수 있다.
+- request 예시
+~~~
+query {
+  name
+}
+~~~
+- response 예시
+~~~
+{
+  "data": {
+    "name": "hojin"
+  }
+}
+~~~
 
