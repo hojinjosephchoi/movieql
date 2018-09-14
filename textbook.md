@@ -190,3 +190,11 @@ mutation {
 	} 
 }
 ~~~
+
+# 10 Delete Mutation
+- 삭제 전문
+~~~
+mutation {
+  deleteMovie(id: 3)
+}
+~~~

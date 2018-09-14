@@ -39,12 +39,18 @@ export const deleteMovie = id => {
 };
 
 export const addMovie = (name, score) => {
+  let id = 0;
+  if(movies && movies.length) {
+    const maxId = Math.max(...movies.map(movie => movie.id));
+    id = maxId + 1;
+  }
+  
   const newMovie = {
-    id: movies.length + 1,
+    id,
     name,
     score
   };
-  
+
   movies.push(newMovie);
 
   return newMovie;
