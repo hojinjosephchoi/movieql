@@ -86,6 +86,13 @@ $ yarn add babel-node --dev
 $ yarn global add babel-cli
 $ yarn add babel-cli babel-preset-env babel-preset-stage-3 --dev
 ~~~
+- yarn start 스크립트 내 babel-node 적용
+~~~
+"scripts": {
+  "start": "nodemon --exec babel-node index.js"
+},
+~~~
+
 
 #4 Creating the first Query and Resolver
 ## Schema
