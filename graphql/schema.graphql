@@ -1,5 +1,5 @@
 type Person{
-  id: Int!
+  id: String!
   name: String!
   age: Int!
   gender: String!

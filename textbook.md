@@ -167,3 +167,10 @@ query {
 
 # 6 Extending the Schema part Two
 - Query, Mutation, Subscription
+
+# 7 Creating Queries with Arguments
+## GraphQL 서버의 workflow
+- 요청 -> GraphQL 서버가 Query나 Mutation의 정의를 발견 -> Resolver를 찾음 -> 해당함수 실행
+
+- Resolvers는 Views와 유사
+- Schema는 URLs와 유사
