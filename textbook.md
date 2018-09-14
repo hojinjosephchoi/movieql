@@ -127,3 +127,39 @@ query {
 }
 ~~~
 
+
+
+#5 Extending the Schema
+- Object형태의 데이터 타입 query 정의하듯 별도로 정의할 수 있다.
+~~~
+type Hojin{
+  name: String!
+  age: Int!
+  gender: String!
+}
+~~~
+
+- `Hojin` 이란 타입을 리턴하는 query는 다음과 같이 정의할 수 있다.
+~~~
+type Query{
+  person: Hojin!
+}
+~~~
+
+- request 할 때 필요한 field 만 요청할 수 있다.
+~~~
+// 이름만 요청
+query {
+  person {
+    name
+  }
+}
+// 이름, 나이, 성 등 전체 요청
+query {
+  person {
+    name
+    age
+    gender 
+  }
+}
+~~~
